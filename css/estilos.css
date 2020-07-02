@@ -1,3 +1,33 @@
+
+nav.navbar.navbar-expand-lg {
+    background-color: #00cec9;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+a.nav-link {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    font-weight: 700;
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em;
+    text-align: center;
+}
+
+a.nav-link:hover {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    font-weight: 700;
+    color: #f8c291; 
+    text-shadow: black 0.1em 0.1em 0.2em;
+    text-align: center;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
 #home #carousel-news-movies {
     height: 60vh;
 }
@@ -23,7 +53,7 @@
     text-align: center;
     padding: 15px 0;
     margin: 50px 0 0 0;
-    background: #505F93;
+    background: #38ada9;
     color: #fff;
 }
 
